@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+
+    margin: 0;
+}
+
+
+
+
+.sideNav{
+    background-color: #82af49;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.sideNav .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+.sideNav .button h2{
+    color: #fff;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 40px;
+
+}
+.sideNav .button .material-icons{
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 50px;
+
+}
+.sideNav .button h1{
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+/*========== Main =========*/
+.main {
+    padding: 15px;
+    background-color: aliceblue;
+}
+/* Top Search bar */
+.main .topNav{
+
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 15px 0 15px;
+    border-radius: 10px;
+    
+}
+.main .topNav .burgerButton div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+
+.main .topNav .searchPannel{
+    border-style: solid;
+    border-width: 2px;
+    border-color:grey;
+    border-radius: 30px;
+    width:430px;
+    height: 50px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.main .topNav .searchPannel .searchInput{
+  
+    border: none;
+    padding-top: 15px;
+    font-size: 30px;
+    width:340px;
+    
+}
+.main .topNav .searchPannel .material-icons{
+   
+    font-size: 40px;
+}
+.main .topNav .userImg img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+
+  /* Top Search bar End*/
+
+/* Indicators */
+  .indicators {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    
+   
+      
+  }
+  .indicators .sticker{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 15px 0 15px;
+    border-radius: 10px;
+    width: 24%;
+    height: 180px;
+  }
+  .indicators .sticker .datas{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content:flex-start;
+  }
+
+  .indicators .sticker .material-icons{
+   font-size: 70px;
+   color: gray;
+   padding-top: 15px;
+  }
+
+  .indicators .sticker .datas h3{
+   font-size: 30px;
+   margin-bottom: -10px;
+   color:#82af49;
+  }
+  .indicators .sticker .datas p{
+      color: gray;
+  }
+
+  /* Indicators End */
